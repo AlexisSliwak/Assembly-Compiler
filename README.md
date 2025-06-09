@@ -1,6 +1,6 @@
 > [!NOTE]
 > Only works for compiling or running a single .asm file.
-Support for multiple files will come in the future.
+> Support for multiple files will come in the future.
 
 > [!IMPORTANT]
 > Requires installation of the [NASM x86-64](https://www.nasm.us/) assembler and ld linker.
