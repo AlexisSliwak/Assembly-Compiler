@@ -23,7 +23,7 @@ compile() {
     fi
 
     if [ -z "$2" ]; then
-        output_file="$base_name.exe"
+        output_file="${base_name}_running_$(uuidgen)"
     else
         output_file="$2"
     fi
