@@ -25,6 +25,6 @@ compile { <file_name.asm> | file_name } [ <output_name> = file_name.o ]
 This documentation uses standard syntax, inspired by [PostgreSQL's documentation](https://www.postgresql.org/docs/)
 > "...brackets ([ and ]) indicate optional parts. Braces ({ and }) and vertical lines (|) indicate that you must choose one alternative."
 
-There are 2 simple additional rules
+There are 2 simple additional rules:
 1. The expression `A = B` to represent `B` as the default value when `A` is not specified
 2. Names are constant throughout the entire code block, unless explicitly stated otherwise (Ex. "file_name.o" will adopt "file_name" from "file_name.asm" or "file_name" in the first parameter)
