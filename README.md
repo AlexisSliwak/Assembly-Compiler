@@ -7,7 +7,7 @@ Support for multiple files will come in the future.
 > ld is the GNU linker and you probably already have it installed.
 
 # Start
-To load the functions upon opening a bash instance, run this command:
+To load the functions upon opening a bash instance or modifying the included files, run this command:
 ```shell
 source run.sh
 ```
